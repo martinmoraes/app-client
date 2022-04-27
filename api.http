@@ -1,0 +1,29 @@
+### Extensão rest Client
+### Create
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "email": "asadf@asdf.asd",
+  "nome": "asdfg",
+  "idade": 54
+}
+
+### findAll
+GET http://localhost:3000/users
+
+### FindOne
+GET http://localhost:3000/users/1
+
+### UpDate
+PUT http://localhost:3000/users/3
+Content-Type: application/json
+
+{
+  "email": "martin@asdf.asd",
+  "nome": "martin",
+  "idade": 54
+}
+
+### Delete
+DELETE  http://localhost:3000/users/2
